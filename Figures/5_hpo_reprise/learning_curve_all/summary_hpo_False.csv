@@ -1,0 +1,8 @@
+Combination,HPO,Metric,Final Score
+NO2,No,roc_auc,0.661 ± 0.009
+HCHO,No,roc_auc,0.613 ± 0.011
+SO2,No,roc_auc,0.626 ± 0.013
+"NO2, HCHO",No,roc_auc,0.664 ± 0.011
+"NO2, SO2",No,roc_auc,0.674 ± 0.011
+"HCHO, SO2",No,roc_auc,0.630 ± 0.012
+"NO2, HCHO, SO2",No,roc_auc,0.677 ± 0.011
