@@ -389,13 +389,13 @@ class AISdataLoader():
         return line.interpolate(fraction, normalized=True)
 
 
-    def load_tropomi_data(self, orbit_time_method, plot: bool = False):
+    def load_tropomi_data(self, orbit_time_method : str, plot : bool = False):
         """
         Load TROPOMI data from netcdf files in the directory
         
         Args:
-        date: str, date of the AIS data
-        region: str, region of the AIS data
+        orbit_time_method: str, method to calculate the time of the orbit
+        plot: bool, plot the ship and plume origin
         """
         # filter on the area of interest
         operations = ";".join([
@@ -511,6 +511,7 @@ def get_ais_data(ROOT, orbit_file, aoi_name, area_of_interest, Hparams):
     orbit_file: pathlib.Path, path to the TROPOMI data
     aoi_name: str, name of the area of interest
     area_of_interest: list, spatial extent of the area of interest
+    Hparams: dict, hyperparameters for the AIS data loader
     
     Returns:
     ais_df: pd.DataFrame, AIS data with the ship's location shifted by the wind data
