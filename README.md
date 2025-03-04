@@ -46,16 +46,4 @@ If you use code from this repo, do not forget to cite:
   type         = {Master's Thesis in Computer Science},
   note         = {Specialisation: Artificial Intelligence. Supervisors: Prof. F. J. Verbeek and Dr. C. Veenman}
 }
-
-@article{kurchaba2024sensitivity,
-title = {Sensitivity analysis for the detection of NO2 plumes from seagoing ships using TROPOMI data},
-journal = {Remote Sensing of Environment},
-volume = {304},
-pages = {114041},
-year = {2024},
-issn = {0034-4257},
-doi = {https://doi.org/10.1016/j.rse.2024.114041},
-url = {https://www.sciencedirect.com/science/article/pii/S003442572400052X},
-author = {Solomiia Kurchaba and Artur Sokolovsky and Jasper {van Vliet} and Fons J. Verbeek and Cor J. Veenman},
-keywords = {TROPOMI, Sensitivity limits, Machine learning, Emissions, Seagoing ships, NO}
-}
+```
