@@ -1,5 +1,3 @@
-# multi-gas-tropomi-ship
-
 # Detecting ship plumes using TROPOMI NO<sub>2</sub>, SO<sub>2</sub> and HCHO observations
 ## A Master's Thesis by Ruben Ahrens
 
