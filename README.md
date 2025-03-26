@@ -1,6 +1,6 @@
 # Detecting ship plumes using TROPOMI NO<sub>2</sub>, SO<sub>2</sub> and HCHO observations
 ## A Master's Thesis by Ruben Ahrens
-Report [https://rubenahrens.com/docs/MScThesis.pdf](https://rubenahrens.com/docs/MScThesis.pdf)
+[https://rubenahrens.com/docs/MScThesis.pdf](https://rubenahrens.com/docs/MScThesis.pdf)
 # Abstract
 <!-- % introduction -->
 Earth observation is becoming important in gaining insight into shipping emissions which produce a large percentage of global emissions. Maritime pollution contributes to global warming, causes health issues in harbors and coastal regions, and disrupts marine ecosystems. Therefore, the International Maritime Organization (IMO) has imposed strict emission limits, and national governments are restricting emissions in harbors and national waters. Because self-reporting is insufficient for measuring compliance, remote sensing is essential for collecting data on ship emissions in the open sea. In previous works, individual ship plumes have been detected using TROPOMI/Sentinel-5P satellite measurements of NO<sub>2</sub>. This study uses machine learning to investigate the impact of incorporating SO<sub>2</sub> and HCHO measurements, alongside NO<sub>2</sub>, in detecting ships' exhaust plumes. Showing the potential of using gases other than NO<sub>2</sub> in finding anomalously emitting ships, benefitting compliance monitoring.
