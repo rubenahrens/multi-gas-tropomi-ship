@@ -1,5 +1,6 @@
 # Detecting ship plumes using TROPOMI NO<sub>2</sub>, SO<sub>2</sub> and HCHO observations
 ## A Master's Thesis by Ruben Ahrens
+Report [rubenahrens.com/docs/MScThesis.pdf](rubenahrens.com/docs/MScThesis.pdf)
 
 # Abstract
 <!-- % introduction -->
@@ -36,11 +37,11 @@ Machine Learning
 If you use code from this repo, do not forget to cite:
 
 ```
-@mastersthesis{ahrens2024detecting,
-  author       = {Ahrens, Ruben},
+@mastersthesis{ahrens2025detecting,
+  author       = {Ruben Ahrens, Cor Veenman, Fons Verbeek},
   title        = {Detecting ship plumes using TROPOMI NO<sub>2</sub>, SO$_2$ and HCHO observations},
   school       = {Leiden University},
-  year         = {2024},
+  year         = {2025},
   month        = {1},
   address      = {Leiden, The Netherlands},
   type         = {Master's Thesis in Computer Science},
